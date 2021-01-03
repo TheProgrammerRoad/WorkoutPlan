@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="100">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="10"
+        android:weightSum="100">
+
+        <ImageView
+            android:id="@+id/iVUebunglist"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_weight="50"
+            android:clickable="true" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_weight="50"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <EditText
+                android:id="@+id/etNamelist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:padding="0dp"
+                android:background="@drawable/edit_text_drawable"
+                android:layout_weight="25"/>
+
+            <EditText
+                android:id="@+id/etEinstellungenlist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:padding="0dp"
+                android:background="@drawable/edit_text_drawable"
+                android:layout_weight="25"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="25"
+                android:weightSum="100">
+
+                <EditText
+                    android:id="@+id/etkg1list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="25"
+                    android:gravity="center"
+                    android:background="@drawable/edit_text_drawable"
+                    android:padding="0dp"
+                    android:textSize="15dp"
+                    />
+
+                <EditText
+                    android:id="@+id/etkg2list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="25"
+                    android:gravity="center"
+                    android:background="@drawable/edit_text_drawable"
+                    android:padding="0dp"
+                    android:textSize="15dp"/>
+
+                <EditText
+                    android:id="@+id/etkg3list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="25"
+                    android:gravity="center"
+                    android:background="@drawable/edit_text_drawable"
+                    android:padding="0dp"
+                    android:textSize="15dp"/>
+
+                <EditText
+                    android:id="@+id/etkg4list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="25"
+                    android:gravity="center"
+                    android:background="@drawable/edit_text_drawable"
+                    android:padding="0dp"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="25"
+                android:weightSum="100">
+
+                <EditText
+                    android:id="@+id/etwdh1list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="25"
+                    android:gravity="center"
+                    android:background="@drawable/edit_text_drawable"
+                    android:textSize="15dp"
+                    android:padding="0dp"/>
+
+                <EditText
+                    android:id="@+id/etwdh2list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="25"
+                    android:gravity="center"
+                    android:background="@drawable/edit_text_drawable"
+                    android:padding="0dp"
+                    android:textSize="15dp"/>
+
+                <EditText
+                    android:id="@+id/etwdh3list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="25"
+                    android:gravity="center"
+                    android:background="@drawable/edit_text_drawable"
+                    android:padding="0dp"
+                    android:textSize="15dp"/>
+
+                <EditText
+                    android:id="@+id/etwdh4list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="25"
+                    android:gravity="center"
+                    android:background="@drawable/edit_text_drawable"
+                    android:padding="0dp"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
